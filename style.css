@@ -1,11 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>PRELIM</title>
 
-<style type="text/css">
-<!--
 body {
     text-align: left;
     background-attachment: fixed;
@@ -58,15 +51,14 @@ a{
    clear: both;
   }
   
-  }
+  
   .mainheader img{
       width: 100px;
       height: auto;
       width: 780px;
       
   }
-  
-  
+ 
   .mainheader nav{
       background-color: #2f4f4f;
       height: 40px;
@@ -76,39 +68,11 @@ a{
       margin-bottom: 0;
       margin-top: 0;
   }
-     
-      
-  
-      
-           
-}
-
--->
-</style>
-
-
-</head>
-
-<body>
-    <div id="wrapper">
-        <div id="header">
-            <div id="logo">LOGO</div>
-            <div id="nav">NAVIGATION</div>
-           
-        </div>
-        
-            <div id="content">
-                <div id="topsidebar">TOP-SIDEBAR</div>
-                <div id="topcontent">TOP CONTENT</div>
-                <div id="middlesidebar">MIDDLE-SIDEBAR</div>
-              
-                <div id="bottomcontent">BOTTOM CONTENT</div>
-                   <div id="bottomsidebar">BOTTOM-SIDER</div>
-               
-            </div>
-                <div id="footer">MAIN FOOTER</div>
-    </div>
-</body>
-
-
-</html>
+   .mainheader ul{
+      list-style: none;
+      margin: 0 auto;
+  }
+  .mainheader ul li{
+      float: left;
+      display: inline;
+  }
