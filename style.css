@@ -7,7 +7,7 @@ body {
     color: #000305;
     font-size: 87.5%;
     font-family: Arial,'Lucida Sans Unicode';
-	
+	background-color: #FF8c00
 	
 }
 .logo{
@@ -128,3 +128,48 @@ a{
       -webkit-border-radius: 5px;
      
   }
+  .post-info{
+  font-style: italic;
+  color: #FFF;
+  font-size: 90%;
+  
+  }
+  .middle-sidebar{
+      width: 23%;
+      float: left;
+      background-color: #FFF;
+      border-radius: 5px;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      margin-left: 1%;
+      margin-bottom: 1%;
+      padding: 2% 3%;
+  }    
+  .bottom-sidebar{
+      width: 23%;
+      float: left;
+      background-color: #FFF;
+      border-radius: 5px;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      margin-left: 1%;
+      margin-bottom: 1%;
+      padding: 1.6% 3%;
+  }
+  .mainFooter{
+      width: 100px;
+      height: 50px;
+      float: left;
+       border-radius: 5px;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      background-color: #2f4f4f;
+      margin-top: 0;
+      margin-bottom: 2%
+  }
+  .mainFooter p{
+      width: 92%;
+      margin: 10px auto;
+      color: #FFF;
+  }
+  
